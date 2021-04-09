@@ -18,7 +18,7 @@ class Bank:
     money_stored = input()
     if int(money_stored) > client.money:
       not_enough_money ='client does not have enough money'
-      return print(not_enough_money)
+      print(not_enough_money)
     else:
       self.clients_list.append([client.name, client_account_num, money_stored])
 
