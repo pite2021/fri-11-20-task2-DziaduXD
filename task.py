@@ -202,6 +202,19 @@ if __name__ == '__main__':
     p12.run()
     p12.start()
 
+    p1.join()
+    p2.join()
+    p3.join()
+    p4.join()
+    p5.join()
+    p6.join()
+    p7.join()
+    p8.join()
+    p9.join()
+    p10.join()
+    p11.join()
+    p12.join()
+
     print("bank1 account list: \n", bank1.accounts_list, '\n')
 
     bank1.transfer(client1, client2, bank1, 500)
